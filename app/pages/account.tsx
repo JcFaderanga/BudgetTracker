@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
   savedBankBox: {
     height: 60,
     width: '100%',
-    backgroundColor: '#DCDCDC',
+    backgroundColor: '#ffffff',
     borderBottomWidth: 1,
     borderColor: '#ECECEC',
     paddingHorizontal: 16,
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    borderWidth: 1,
+   
   },
   text: {
     fontSize: 16,

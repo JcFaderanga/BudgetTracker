@@ -38,13 +38,12 @@ export const fetchData = async (userId: string)=> {
             .from('bank')
             .select('*')
             .eq('user_id', userId)
+            .order('bank_balance', { ascending: false });
             
         if (error) {
             console.log('Error fetching data:', error.message);
             return null; 
         }
-        
-        console.log('Data fetched successfully!');
         return data;
     } catch (err: any) {
         console.error('Unexpected error:', err);

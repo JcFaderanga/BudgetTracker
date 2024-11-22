@@ -3,7 +3,7 @@ import React from 'react'
 import RNPickerSelect from 'react-native-picker-select';
 
 interface dropDownProps{
-  title: string;
+  title: string | any;
   placeholder: string;
   list: any;
   onValueChange: any;
